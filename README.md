@@ -1,3 +1,17 @@
+## GrimAC EntitySpeed — 2b2t.org.ru
+
+Fork for **Folia 1.21.11** allowing additional horizontal EntitySpeed up to **40 km/h**
+(11.111111 blocks/second), while preserving normal vertical physics, collisions,
+packet checks and server velocity checks.
+
+See [fork behavior, build instructions and security test coverage](ENTITYSPEED-FORK.md).
+The test suite passes 63 tests, including 15 EntitySpeed regression tests.
+This does not guarantee the absence of all exploits; live Meteor and latency testing is still required.
+
+Upstream: [GrimAnticheat/Grim](https://github.com/GrimAnticheat/Grim), licensed under GPL-3.0.
+
+---
+
 <div align="center">
  <h1>GrimAC</h1>
 
